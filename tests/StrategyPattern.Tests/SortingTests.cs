@@ -25,6 +25,8 @@ namespace StrategyPattern.Tests
 
             // Assert
             Assert.IsTrue(records.List[0] == "A");
+            Assert.IsTrue(records.List[1] == "B");
+            Assert.IsTrue(records.List[2] == "C");
         }
 
         [TestMethod]
@@ -43,6 +45,8 @@ namespace StrategyPattern.Tests
 
             // Assert
             Assert.IsTrue(records.List[0] == "Abigail");
+            Assert.IsTrue(records.List[1] == "Bella");
+            Assert.IsTrue(records.List[2] == "Clara");
         }
     }
 }
